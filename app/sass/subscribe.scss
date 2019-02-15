@@ -1,0 +1,31 @@
+.subscribe {
+  padding-top: 50px;
+  background-color: #f4f4f4;
+  padding-bottom: 46px;
+  &__title {
+    color: #635c73;
+    font: 700 30px $font-asap
+  }
+  &__email {
+    background-color: #fafbfc;
+    border-radius: 20px;
+    padding: 15px 258px 15px 28px;
+    color: #c8cbcf;
+    font: 400 14px $font-asap;
+    margin-right: 20px;
+    @media screen and (max-width: 768px) {
+      padding: 15px 40px 15px 28px;
+    }
+  }
+  &__button {
+    background-color: #8d81ac;
+    border-radius: 25px;
+    padding: 15px 29px;
+    color: #d4d4d4;
+    font: 400 13px/17px $font-asap;
+  }
+  &__button:hover {
+    background-color: #4b3b4e;
+    text-decoration: none;
+  }
+}

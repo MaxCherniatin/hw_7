@@ -1,0 +1,51 @@
+.hero {
+  background: url("../img/fork-app.png") no-repeat center/cover;
+  padding-top: 108px;
+  &__title {
+    color: #d4d4d4;
+    font-family: $font-asap;
+    font-size: 82px;
+    font-weight: 700;
+    line-height: 20.45px;
+  }
+  &__one-text {
+    padding: 39px 0 0;
+    color: #8d81ac;
+    font-family: $font-asap;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  &__two-text {
+    padding: 10px 0 378px;
+    color: #848e97;
+    font-family: $font-asap;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.45px;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 768px) {
+      padding: 10px 0 505px;
+    }
+  }
+  &__link {
+    background-color: #8d81ac;
+    position: relative;
+    bottom: -30px;
+    padding: 23px 65px;
+    border-radius:  30px;
+
+  }
+  &__link-text {
+    color: #d4d4d4;
+    font-family: $font-asap;
+    font-size: 21px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 11px 35px;
+  }
+  &__link:hover {
+    background-color: #15a4fa;
+  }
+}

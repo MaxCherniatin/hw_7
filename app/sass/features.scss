@@ -1,0 +1,40 @@
+.features {
+  background-color: #f4f4f4;
+  padding-top: 84px;
+  padding-bottom: 69px;
+
+  &__list{
+
+
+  }
+  &__item {
+    display: flex;
+  }
+  &__item-img {
+    margin-bottom: 67px;
+  }
+
+  &__title {
+    color: #323232;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  &__text {
+    color: #848e97;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &__img {
+    background: url("../img/code-img.png");
+    position: relative;
+    max-width: 1140px;
+    height:580px;
+    opacity: 0.95;
+  }
+  &__title-1 {
+    color: #8d81ac;
+    font: 700 45px  $font-asap;
+  }
+}

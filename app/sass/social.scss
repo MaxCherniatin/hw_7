@@ -1,0 +1,100 @@
+.social {
+  padding-top: 87px;
+  &__block {
+    max-width: 400px;
+    margin: 0 auto 39px;
+  }
+  &__img {
+    background: url("../img/photo_img.png") no-repeat center/cover;
+    max-width: 95px;
+    height: 95px;
+
+  }
+  &__name-title {
+    color: #635c73;
+    font: 700 24px $font-asap;
+    max-width: 200px;
+  }
+  &__link {
+    color: #8d81ac;
+    font: 400 16px $font-asap;
+    text-decoration: none;
+  }
+  &__story {
+    margin: auto;
+    padding: 50px 0 50px 0;
+    max-width: 80%;
+    border-bottom: 2px solid #f4f4f4;
+  }
+  &__comment-p {
+    color: #333333;
+    font: 400 20px/32px $font-sans;
+    a {
+      font-size: inherit;
+    }
+  }
+  &__comment-time {
+    color: #848e97;
+    font: 400 16px $font-asap;
+  }
+  &__block-1 {
+    display: flex;
+    justify-content: center;
+  }
+  &__github-button {
+    padding: 16px 24px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    display: block;
+
+    margin: auto;
+    color: #000000;
+    font-weight: bold;
+    font-family: $font-asap;
+    font-size: 21px;
+  }
+  &__github-button:hover {
+    background-color: #d4d4d4;
+    text-decoration: none;
+  }
+  &__text-center {
+    padding-left: 25%;
+  }
+  &__twitter-button {
+    padding: 16px 24px;
+    background-color: #26a6d1;
+    color: #ffffff;
+    margin: 0;
+    border-radius: 5px;
+    display: block;
+    font-family: $font-asap;
+    font-size: 21px;
+  }
+  &__twitter-button:hover {
+    background-color: #d4d4d4;
+    text-decoration: none;
+  }
+  &__facebook-button {
+    padding: 16px 24px;
+    color: #ffffff;
+    max-width: 280px;
+    margin: auto;
+    font-family: $font-asap;
+    font-size: 21px;
+    border-radius: 5px;
+    background-color: #3b5998;
+    display: block;
+  }
+  &__facebook-button:hover {
+    background-color: #d4d4d4;
+    text-decoration: none;
+
+  }
+  &__followers {
+    color: #848e97;
+    font: 400 14px/32px $font-asap;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+  }
+}

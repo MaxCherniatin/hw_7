@@ -1,0 +1,74 @@
+.instruments {
+  padding-top: 79px;
+  padding-bottom: 70px;
+  h2 {
+    color: #d3d1da;
+    font: 700 28px $font-asap;
+    margin-bottom: 58px;
+
+  }
+  .fully-element {
+    h3 {
+      color: #323232;
+      font-family: $font-asap;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    p {
+      color: #848e97;
+      font: 400 13px/21px $font-asap;
+      padding: 20px 0 15px;
+    }
+  }
+  .improved-element {
+    h3 {
+      color: #323232;
+      font: 400 16px/26px $font-asap;
+      font-weight: bold;
+    }
+    p {
+      color: #848e97;
+      font: 400 13px/21px $font-asap;
+      padding: 20px 0 15px;
+    }
+  }
+  .improved-element {
+    h3 {
+      color: #323232;
+      font: 400 16px/26px $font-asap;
+      font-weight: bold;
+    }
+    p{
+      padding: 20px 0 15px;
+      color: #848e97;
+      font-family: $font-asap;
+      font-size: 13px;
+      line-height: 21px;
+    }
+  }
+  &__link {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    color: #8d81ac;
+    font: 400 14px/26px $font-asap;
+    padding: 9px 16px;
+  }
+  &__link:hover {
+    background-color: #4b3b4e;
+    text-decoration: none;
+  }
+  .custom-element {
+    h3 {
+      color: #8d81ac;
+      font: 400 16px/26px $font-asap;
+      font-weight: bold;
+    }
+    p {
+      padding: 20px 0 15px;
+      color: #848e97;
+      font-family: $font-asap;
+      font-size: 13px;
+      line-height: 21px;
+    }
+  }
+}

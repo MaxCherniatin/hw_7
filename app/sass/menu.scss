@@ -1,0 +1,73 @@
+.menu {
+  padding-top: 98px;
+  padding-bottom: 49px;
+  background:#4b3b4e url("../img/people-img.png") no-repeat center/cover;
+  &__title {
+    text-align: center;
+    color: #d4d4d4;
+    font: 700 48px $font-asap;
+    margin-bottom: 90px;
+  }
+  &__text {
+    color: #d4d4d4;
+    font: 400 16px $font-sans;
+    margin-bottom: 112px;
+
+
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 768px){
+      display: inline-block;
+      margin-left: 14%;
+      padding-bottom: 30px;
+    }
+  }
+  &__item{
+    max-width: 326px;
+  }
+  &__img-1 {
+    background: url("../img/logo-1.png") no-repeat center/cover;
+    width: 165px;
+    height: 43px;
+  }
+  &__img-2 {
+    background: url("../img/logo-2.png") no-repeat center/cover;
+    width: 148px;
+    height: 50px;
+  }
+  &__img-3 {
+    background: url("../img/logo-3.png") no-repeat center/cover;
+    width: 64px;
+    height: 64px;
+  }
+  &__img-4 {
+    background: url("../img/logo-4.png") no-repeat center/cover;
+    width: 225px;
+    height: 24px;
+  }
+  &__img-5 {
+    background: url("../img/logo-5.png") no-repeat center/cover;
+    width: 166px;
+    height: 34px;
+  }
+  &__img-6 {
+    background: url("../img/logo-6.png") no-repeat center/cover;
+    width: 108px;
+    height: 34px;
+  }
+  &__item-1 {
+    max-width: 326px;
+
+  }
+  &__img {
+    margin: 0 auto 33px;
+  }
+  &__border {
+    width: 780px;
+    border: 2px solid #c7c7c7;
+    opacity: 0.2;
+    margin: 0 auto;
+  }
+}
